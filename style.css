@@ -1,3 +1,40 @@
 * {
   font-family: sans-serif;
 }
+
+aside p:last-child::after {
+  content: "For Stargaizers!";
+  color: #ffff00;
+  background-color: #000;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffff00;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: #000;
+  color: #ffff00;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+img {
+  width: 400px;
+}
+
+.container {
+  width: 80%;
+}
