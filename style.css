@@ -1,5 +1,7 @@
 * {
   font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 aside p:last-child::after {
@@ -10,6 +12,8 @@ aside p:last-child::after {
 
 a:link {
   color: #1098ad;
+  margin-left: 10px;
+  margin-right: 10px;
   text-decoration: none;
 }
 
@@ -19,7 +23,7 @@ a:visited {
 }
 
 a:hover {
-  color: #ffff00;
+  color: #1098ad;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -31,10 +35,82 @@ a:active {
   text-decoration: underline;
 }
 
+body {
+  border-top: 6px solid #1098ad;
+  line-height: 1.5;
+}
+
+figure {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+footer {
+  position: absolute;
+  right: 100px;
+}
+
+header {
+  background-color: #eee;
+  color: #1098ad;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #1098ad;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+h1::first-letter {
+  font-style: normal;
+}
+
+h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 img {
-  width: 400px;
+  height: 230px;
+}
+
+li {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+nav {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+article nav {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
 }
 
 .container {
   width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.index-nav-container {
+  background-color: #eee;
+  border-top: 4px solid #1098ad;
+  border-bottom: 4px solid #1098ad;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 400px;
 }
