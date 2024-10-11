@@ -5,16 +5,16 @@
 }
 
 aside p:last-child::after {
-  padding-top: 2px;
+  background-color: #000;
+  bottom: -12px;
+  color: #ffff00;
+  content: "For Stargazers!";
   padding-bottom: 2px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 2px;
   position: absolute;
   right: -50px;
-  bottom: -12px;
-  content: "For Stargaizers!";
-  color: #ffff00;
-  background-color: #000;
 }
 
 header a:link {
@@ -23,8 +23,8 @@ header a:link {
 }
 
 header a:link:nth-child(even) {
-  border-right: 2px solid #1098ad;
   border-left: 2px solid #1098ad;
+  border-right: 2px solid #1098ad;
 }
 
 a:link {
@@ -56,17 +56,17 @@ body {
 }
 
 figure {
-  text-align: center;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 figcaption {
   color: #777;
   font-size: 13px;
   line-height: 1.25;
-  width: 500px;
   margin-left: auto;
   margin-right: auto;
+  width: 500px;
 }
 
 footer {
@@ -78,15 +78,15 @@ footer {
 header {
   background-color: #eee;
   color: #1098ad;
-  padding-bottom: 5px;
   margin-bottom: 40px;
+  padding-bottom: 5px;
 }
 
 h1 {
   color: #1098ad;
   font-style: italic;
-  text-transform: uppercase;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 h1::first-letter {
@@ -126,18 +126,18 @@ article p {
 }
 
 aside p:last-child {
+  border: 3px solid #1098ad;
+  font-style: italic;
   margin: 40px;
   padding: 8px;
-  border: 3px solid #1098ad;
   position: relative;
-  font-style: italic;
 }
 
 p {
-  text-align: justify;
+  font-size: 14px;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 14px;
+  text-align: justify;
 }
 
 .additional-paragraphs {
@@ -146,19 +146,19 @@ p {
 }
 
 .container {
-  width: 80%;
   margin-left: auto;
   margin-right: auto;
+  width: 80%;
 }
 
 .index-nav-container {
   background-color: #eee;
-  border-top: 4px solid #1098ad;
   border-bottom: 4px solid #1098ad;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border-top: 4px solid #1098ad;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
   text-align: center;
   width: 400px;
 }
